@@ -1,5 +1,13 @@
 # Changelog
 
+## v4.2.1
+
+- Added short-lived failure caching for document content reads so repeated Streamlit reruns do not keep consuming document quota after a transient read failure.
+- Made document API cache writes best-effort so successfully fetched document content still renders when the local cache path cannot be written.
+- Kept authorization and quota errors live instead of negative-caching them, preserving accurate Free/Trial/Pro and daily document quota state.
+
+Distribution note: this build is Developer ID signed but not notarized.
+
 ## v4.2.0
 
 - Added a global AI Output Language sidebar preference for Chinese and English.
@@ -9,4 +17,3 @@
 - Documented the `.en` document naming convention and discovery fallback rules.
 
 Distribution note: this build is Developer ID signed but not notarized.
-

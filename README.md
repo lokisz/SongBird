@@ -8,12 +8,12 @@ GitHub Release assets only.
 
 ## Latest Build
 
-- Version: v4.2.0
+- Version: v4.2.1
 - Platform: macOS arm64
-- Artifact: `SongBird-v4.2.0-mac-codesigned.zip`
+- Artifact: `SongBird-v4.2.1-mac.zip`
 - Status: Developer ID signed, not notarized
 
-Because the current v4.2.0 build is not notarized, macOS Gatekeeper may show a
+Because the current v4.2.1 build is not notarized, macOS Gatekeeper may show a
 warning on first launch. Use the release notes for the exact trust status of
 each build.
 
@@ -27,4 +27,3 @@ https://github.com/lokisz/SongBird/releases
 
 Each release includes `checksums.txt` with SHA-256 hashes for downloadable
 artifacts.
-

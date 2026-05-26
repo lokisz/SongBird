@@ -1,15 +1,14 @@
 {
   "product": "SongBird",
-  "version": "v4.2.0",
+  "version": "v4.2.1",
   "platform": "macos",
   "architecture": "arm64",
-  "artifact": "SongBird-v4.2.0-mac-codesigned.zip",
-  "downloadUrl": "https://github.com/lokisz/SongBird/releases/download/v4.2.0/SongBird-v4.2.0-mac-codesigned.zip",
-  "sha256": "288c421e6b5928ab106043daab4007965508a82b34ef7c79dfd53eb7385f8138",
+  "artifact": "SongBird-v4.2.1-mac.zip",
+  "downloadUrl": "https://github.com/lokisz/SongBird/releases/download/v4.2.1/SongBird-v4.2.1-mac.zip",
+  "sha256": "e60476767a5bc5a9c0331a81a5d7519fbaba4324ee3b6a473b59dfcfd0b8b24f",
   "developerIdSigned": true,
   "notarized": false,
   "prerelease": true,
-  "publishedAt": "2026-05-26T23:35:00+08:00",
-  "releaseUrl": "https://github.com/lokisz/SongBird/releases/tag/v4.2.0"
+  "publishedAt": "2026-05-27T00:45:00+08:00",
+  "releaseUrl": "https://github.com/lokisz/SongBird/releases/tag/v4.2.1"
 }
-
