@@ -1,0 +1,7 @@
+*.zip
+*.dmg
+*.pkg
+*.app
+*.tar.gz
+dist/
+
