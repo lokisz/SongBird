@@ -8,10 +8,14 @@ GitHub Release assets only.
 
 ## Latest Build
 
-No public macOS build is currently available.
+- Version: v4.3.0
+- Platform: macOS arm64
+- Artifact: `SongBird-v4.3.0-mac.zip`
+- Status: Developer ID signed, not notarized
 
-The v4.2.1 package was withdrawn before publication because it needs a packaging
-fix. Use the release notes for the exact trust status of each future build.
+Because the current v4.3.0 build is not notarized, macOS Gatekeeper may show a
+warning on first launch. Use the release notes for the exact trust status of
+each build.
 
 ## Download
 

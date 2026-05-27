@@ -1,5 +1,14 @@
 # Changelog
 
+## v4.3.0
+
+- Added a Home sidebar EOD auto update option under Data Maintenance, scoped to the current market and current data source.
+- The schedule supports daily run time and timezone settings, runs only while the app is open, and catches up once if the app opens after the configured time.
+- Persisted EOD auto update settings in config/eod_auto_update.json and run state in logs/eod_auto_update_state.json, so page navigation does not reset the selection.
+- Added packaging support for a clean disabled-by-default EOD auto update seed config for new users.
+
+Distribution note: this build is Developer ID signed but not notarized.
+
 ## v4.2.0
 
 - Added a global AI Output Language sidebar preference for Chinese and English.

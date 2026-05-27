@@ -1,16 +1,15 @@
 {
   "product": "SongBird",
-  "available": false,
-  "version": null,
+  "available": true,
+  "version": "v4.3.0",
   "platform": "macos",
   "architecture": "arm64",
-  "artifact": null,
-  "downloadUrl": null,
-  "sha256": null,
-  "developerIdSigned": null,
-  "notarized": null,
-  "prerelease": null,
-  "publishedAt": null,
-  "releaseUrl": null,
-  "message": "No public macOS build is currently available. v4.2.1 was withdrawn before publication because it needs a packaging fix."
+  "artifact": "SongBird-v4.3.0-mac.zip",
+  "downloadUrl": "https://github.com/lokisz/SongBird/releases/download/v4.3.0/SongBird-v4.3.0-mac.zip",
+  "sha256": "a251386490012a60939fcd930e6f8aee78a8bc1816175ac0263aa61b82961b73",
+  "developerIdSigned": true,
+  "notarized": false,
+  "prerelease": true,
+  "publishedAt": "2026-05-27T00:49:49Z",
+  "releaseUrl": "https://github.com/lokisz/SongBird/releases/tag/v4.3.0"
 }
