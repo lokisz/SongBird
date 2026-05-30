@@ -1,5 +1,21 @@
 # Changelog
 
+## v4.3.2
+
+- Added strict previous/next quarter navigation for Ticker Detail earnings documents without skipping missing natural quarters.
+- Kept Ticker AI markdown context aligned with the currently selected earnings document.
+- Added Kline Snapshot sorting controls on Earning Analysis and shortened the Technical Changes download button label.
+
+Distribution note: this build is Developer ID signed but not notarized.
+
+## v4.3.1
+
+- Added per-market data source controls for MyWatch and MyPortfolio so Trial users can switch US data from Auto/Polygon to yfinance.
+- Kept Auto as the default data source behavior while allowing valid market-specific overrides.
+- Updated Portfolio market availability to consider any entitled source with local scan data.
+
+Distribution note: this build was not published separately; changes are included in v4.3.2.
+
 ## v4.3.0
 
 - Added a Home sidebar EOD auto update option under Data Maintenance, scoped to the current market and current data source.
